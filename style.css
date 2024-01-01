@@ -1,0 +1,143 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #541554;
+    overflow-y: hidden;
+}
+
+header {
+    border: 1px solid white hidden;
+    position: relative;
+    left: -55px;
+}
+
+header .bar ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 20px;
+
+
+}
+
+header .bar ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    position: relative;
+    left: 50px;
+    font-weight: 600;
+}
+
+.searchbar {
+    position: relative;
+    display: flex;
+    float: inline-end;
+    right: 300px;
+    top: -6px;
+}
+
+.searchbar input {
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.signin {
+    position: relative;
+    left: 340px;
+}
+
+.btn1 {
+    float: right;
+    position: relative;
+    top: -10.5px;
+    right: 190px;
+    color: white;
+    border: 1px solid ;
+    padding: 12px 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+
+.btn2 {
+    float: right;
+    position: relative;
+    border: 1px solid white;
+    top: -10.5px;
+    right: -120px;
+    color: white;
+    padding: 12px 10px;
+    background-color: white;
+    color: #541554;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+
+.container {
+    position: relative;
+    left: 53px;
+    display: inline-block;
+}
+
+.container h1 {
+    font-size: 64px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.container #spaceneed {
+    position: relative;
+    top: -50px;
+    color: #ECB22E;
+}
+
+.container #work {
+    position: relative;
+    top: -90px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.btn3, .btn4 {
+    position: relative;
+    top: -100px;
+    padding: 19px 40px 20px 40px;
+    margin-right: 8px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+h4 {
+    position: relative;
+    top: -100px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.btn3 {
+    background-color: white;
+    font-weight: 600;
+    color: #541554;
+}
+
+.btn4 {
+    background-color: #4285F4;
+    font-weight: 600;
+    color: white;
+}
+
+.btn3,.btn4:hover {
+    cursor: pointer;
+}
+
+video {
+    width: 608px;
+    height: 398px;
+    position: relative;
+    top: -469px;
+    left: 731px;
+}
+
+
